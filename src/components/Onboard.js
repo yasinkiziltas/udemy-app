@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './onboard.css'
 import { Input, Button } from 'reactstrap'
 import { AiOutlineLogin } from "react-icons/ai";
@@ -12,6 +12,9 @@ export default function Onboard() {
     const handleClick = () => {
         if (userForm.name == "Yasin" & userForm.password == "Kızıltaş") {
             alert('Giriş Başarılı!')
+        }
+        else if (userForm.name == "" & userForm.password == "") {
+            alert('Geçersiz Form!')
         }
         else {
             alert('Giriş Başarısız!')

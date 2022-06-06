@@ -1,0 +1,6 @@
+06.06.2022
+
+Baştan uygulama tasarlancak,
+Login, register, onboard sayfaları olcak (w/bootstrap)
+Sayfalar arası router koy (Kayıt ol, giriş yap vb.), 
+Mapleme örneklerini araya serpiştir. (giriş yaptıktan sonra kullanıcıları listele vb.)
